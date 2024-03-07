@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="normalize.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Sign Up</title>
+</head>
+<body>
+    <main>
+        <aside class="cover">
+            <div class="logo">
+                <img />
+                <h1>Jeff's Cafe</h1>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Telegram</li>
+                    <li>What's App</li>
+                </ul>
+            </div>
+            <div class="background-annotation">
+                Photo by <a href="https://unsplash.com/@subagjav?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rizky Subagja</a> on <a href="https://unsplash.com/photos/1k7TnX5GAww?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </div>
+        </aside>
+        <div class="sign-up">
+            <section class="slogan">
+                <p>Sip the Brew, Taste the Magic</p>
+                <p>Register Now for a Latte Love Delivered to Your Door!</p>
+            </section>
+            <form id="register-form" method="post" action="#">
+                <h2>Order now!</h2>
+                <div class="fields">
+                    <div class="name fieldset">
+                        <div class="field">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname">
+                        </div>
+                        <div class="field">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname">
+                        </div>
+                    </div>
+                    <div class="contacts fieldset">
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                    </div>
+                    <div class="passwords fieldset">
+                        <div class="field">
+                            <label for="password">Password</label>
+                            <input type="text" name="password" id="password">
+                        </div>
+                        <div class="field">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="text" name="confirm-password" id="confirm-password">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="reg-login">
+                <button type="submit" form="register-form">Create Account</button>
+                <div class="log-in">
+                    Already have an account? <a href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
