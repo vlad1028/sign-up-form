@@ -35,7 +35,7 @@ main {
     /* max-width: var(--img-width); */
     min-width: min(var(--img-width), 40%);
     /* min-width: var(--img-width); */
-    background: no-repeat center / cover url('/img/coffee-bags.jpg');
+    background: no-repeat center / cover url('./img/coffee-bags.jpg');
 
     text-align: center;
     display: flex;
